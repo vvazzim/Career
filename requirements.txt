@@ -1,0 +1,19 @@
+# Phishing Detection - Logo Impersonation Detection
+# Requirements for Cortex XSOAR Integration
+
+# Core Computer Vision Libraries
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Optional: For enhanced deep learning-based detection (uncomment if using YOLO)
+# torch>=2.0.0
+# torchvision>=0.15.0
+# ultralytics>=8.0.0  # YOLOv8
+
+# XSOAR Specific (already available in XSOAR environment)
+# demistodatamodel
+# DemistoPython3
+
+# Testing & Development (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
